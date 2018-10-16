@@ -1,7 +1,7 @@
 *** Settings ***
 Library  Selenium2Library
 
-
+Test Setup  Open test browser
 
 *** Variables ***
 ${SERVER URL}     http://sre-12.example.com/
@@ -24,6 +24,9 @@ Test012 test test22
     Set Active User Failed
 
 Test013 test test22
+    Set Active User Passed
+
+Test014 test test22
     Set Active User Passed
 
 Simple Test
