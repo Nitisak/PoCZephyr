@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite failures="1" tests="1" errors="0" name="testRobot" skip="0">
-<testcase classname="testRobot" name="Example" time="0">
-<failure message="Variable '${PORT}' not found." type="AssertionError"></failure>
+<testcase classname="testRobot" name="Test001 test test" time="0">
+<failure message="Parent suite setup failed:&#10;No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 </testsuite>
