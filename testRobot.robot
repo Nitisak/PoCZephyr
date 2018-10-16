@@ -1,13 +1,12 @@
 *** Settings ***
-Library    Telnet    prompt=$    default_log_level=DEBUG
+Suite Setup       Set Active User
 
-*** Test Cases ***
-Example
-    Open connection    localhost    port=${PORT}    alias=example
-    List files    options=-lh
-    List files    path=/tmp    options=-l
+*** Variables ***
+# Default system address. Override when tested agains other instances.
+${SERVER URL}     http://sre-12.example.com/
+${USER}           Actual value set dynamically at suite setup
 
 *** Keywords ***
-List files
-    [Arguments]    ${path}=.    ${options}=
-    Execute command    ls ${options} ${path}
+Set Active User
+    ${USER} =    Get Current User    ${SERVER URL}
+    Set Suite Variable    ${USER}
