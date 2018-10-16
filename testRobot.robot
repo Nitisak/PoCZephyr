@@ -11,8 +11,11 @@ Set Active User
     Set Suite Variable    ${USER}
 
 *** Test Cases ***
-Test001 test test11
+Test011 test test11
     Set Active User
 
-Test002 test test22
+Test012 test test22
+    Set Active User
+
+Test013 test test22
     Set Active User

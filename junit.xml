@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="2" tests="2" errors="0" name="testRobot" skip="0">
-<testcase classname="testRobot" name="Test001 test test11" time="0">
+<testsuite failures="3" tests="3" errors="0" name="testRobot" skip="0">
+<testcase classname="testRobot" name="Test011 test test11" time="0">
 <failure message="Parent suite setup failed:&#10;No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
-<testcase classname="testRobot" name="Test002 test test22" time="0">
+<testcase classname="testRobot" name="Test012 test test22" time="0">
+<failure message="Parent suite setup failed:&#10;No keyword with name 'Get Current User' found." type="AssertionError"></failure>
+</testcase>
+<testcase classname="testRobot" name="Test013 test test22" time="0">
 <failure message="Parent suite setup failed:&#10;No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 </testsuite>
