@@ -1,5 +1,7 @@
 *** Settings ***
-Suite Setup     Set Active User
+Library  Selenium2Library
+
+
 
 *** Variables ***
 ${SERVER URL}     http://sre-12.example.com/
@@ -23,3 +25,6 @@ Test012 test test22
 
 Test013 test test22
     Set Active User Passed
+
+Simple Test
+	Go to  https://www.google.com
