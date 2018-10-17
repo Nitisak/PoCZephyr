@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="5" tests="5" errors="0" name="testRobot" skip="0">
-<testcase classname="testRobot" name="Test011 test test11" time="0">
-<failure message="Setup failed:&#10;No keyword with name 'Open test browser' found." type="AssertionError"></failure>
+<testsuite failures="1" tests="2" errors="0" name="testRobot" skip="0">
+<testcase classname="testRobot" name="ZEP01 Validate that when automation test failed the Zehpyr test should show the Failed status." time="0">
+<failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
-<testcase classname="testRobot" name="Test012 test test22" time="0">
-<failure message="Setup failed:&#10;No keyword with name 'Open test browser' found." type="AssertionError"></failure>
-</testcase>
-<testcase classname="testRobot" name="Test013 test test22" time="0">
-<failure message="Setup failed:&#10;No keyword with name 'Open test browser' found." type="AssertionError"></failure>
-</testcase>
-<testcase classname="testRobot" name="Test014 test test20000000" time="0">
-<failure message="Setup failed:&#10;No keyword with name 'Open test browser' found." type="AssertionError"></failure>
-</testcase>
-<testcase classname="testRobot" name="Simple Test" time="0">
-<failure message="Setup failed:&#10;No keyword with name 'Open test browser' found." type="AssertionError"></failure>
+<testcase classname="testRobot" name="ZEP02 Validate that when automation test Passed the Zehpyr test should show the Passed status." time="0">
 </testcase>
 </testsuite>

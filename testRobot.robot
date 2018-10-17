@@ -1,10 +1,9 @@
 *** Settings ***
 Library  Selenium2Library
 
-Test Setup  Open test browser
 
 *** Variables ***
-${SERVER URL}     http://sre-12.example.com/
+${SERVER URL}     http://www.google.co.th/
 ${USER}           Actual value set dynamically at suite setup
 ${USER_PASSED}    test0001
 
@@ -17,17 +16,8 @@ Set Active User Passed
     Set Suite Variable    ${USER_PASSED}
 
 *** Test Cases ***
-Test011 test test11
+ZEP01 Validate that when automation test failed the Zehpyr test should show the Failed status.
     Set Active User Failed
 
-Test012 test test22
-    Set Active User Failed
-
-Test013 test test22
+ZEP02 Validate that when automation test Passed the Zehpyr test should show the Passed status.
     Set Active User Passed
-
-Test014 test test20000000
-    Set Active User Passed
-
-Simple Test
-	Go to  https://www.google.com
