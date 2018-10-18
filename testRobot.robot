@@ -27,3 +27,6 @@ ZEP03 Validate that when automation test Passed the Zehpyr test should show Pass
 
 ZEP04 Validate that when automation test Passed the Zehpyr test should show Pass status.
     Set Active User Passed
+
+ZEP05 Validate that when automation test Passed the Zehpyr test should show Pass status.
+    Set Active User Passed
