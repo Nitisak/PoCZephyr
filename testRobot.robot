@@ -16,17 +16,17 @@ Set Active User Passed
     Set Suite Variable    ${USER_PASSED}
 
 *** Test Cases ***
-ZEP01 Validate that when automation test failed the Zehpyr test should show Fail status01.
+ZEP01 Validate that when automation test failed the Zehpyr test should show Fail status.
     Set Active User Failed
 
-ZEP02 Validate that when automation test failed the Zehpyr test should show Fail status01.
+ZEP02 Validate that when automation test failed the Zehpyr test should show Fail status.
     Set Active User Failed
 
-ZEP03 Validate that when automation test Passed the Zehpyr test should show Pass status01.
+ZEP03 Validate that when automation test Passed the Zehpyr test should show Pass status.
     Set Active User Passed
 
-ZEP04 Validate that when automation test Passed the Zehpyr test should show Pass status01.
+ZEP04 Validate that when automation test Passed the Zehpyr test should show Pass status.
     Set Active User Passed
 
-ZEP05 Validate that when automation test Passed the Zehpyr test should show Pass status01.
+ZEP05 Validate that when automation test Passed the Zehpyr test should show Pass status.
     Set Active User Passed
