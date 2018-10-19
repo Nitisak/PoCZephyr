@@ -17,7 +17,7 @@ Set Active User Passed
 
 *** Test Cases ***
 ZEP01 Validate that when automation test failed the Zehpyr test should show Fail status.
-    Set Active User Failed
+    Set Active User Passed
 
 ZEP02 Validate that when automation test failed the Zehpyr test should show Fail status.
     Set Active User Passed
@@ -26,7 +26,7 @@ ZEP03 Validate that when automation test Passed the Zehpyr test should show Pass
     Set Active User Passed
 
 ZEP04 Validate that when automation test Passed the Zehpyr test should show Pass status.
-    Set Active User Failed
+    Set Active User Passed
 
 ZEP05 Validate that when automation test Passed the Zehpyr test should show Pass status.
-    Set Active User Failed
+    Set Active User Passed
