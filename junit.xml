@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="2" tests="7" errors="0" name="testRobot" skip="0">
+<testsuite failures="5" tests="7" errors="0" name="testRobot" skip="0">
 <testcase classname="testRobot" name="ZEP01 Validate that when automation test failed the Zehpyr test should show Fail status." time="0">
 <failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
@@ -7,10 +7,13 @@
 <failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 <testcase classname="testRobot" name="ZEP03 Validate that when automation test Passed the Zehpyr test should show Pass status." time="0">
+<failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 <testcase classname="testRobot" name="ZEP04 Validate that when automation test Passed the Zehpyr test should show Pass status." time="0">
+<failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 <testcase classname="testRobot" name="ZEP05 Validate that when automation test Passed the Zehpyr test should show Pass status." time="0">
+<failure message="No keyword with name 'Get Current User' found." type="AssertionError"></failure>
 </testcase>
 <testcase classname="testRobot" name="ZEP06 Validate that when automation test Passed the Zehpyr test should show Pass status." time="0">
 </testcase>
